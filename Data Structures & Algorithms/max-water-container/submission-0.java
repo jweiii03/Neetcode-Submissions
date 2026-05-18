@@ -1,3 +1,6 @@
+// Time Complexity: O(n), two pointer approach, single pass through array
+// Space Complexity: O(1), only use constant space for variables
+
 class Solution {
     public int maxArea(int[] heights) {
         // Area = Math.min(left height, right heigh) * width

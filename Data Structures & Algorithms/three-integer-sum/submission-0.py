@@ -1,3 +1,6 @@
+# Time Complexity: O(n^2), outer loop O(n), inner two-pointer loop O(n)
+# Space Complexity: O(1) or O(n) depending on sorting (not counting output)
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []

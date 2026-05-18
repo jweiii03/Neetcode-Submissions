@@ -1,3 +1,6 @@
+// Time Complexity: O(n * k * log(k)), where n is number of strings and k is length of each string (sorting is O(k * log(k)))
+// Space Complexity: O(n * k), hashmap stores all strings
+
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> hm = new HashMap<>();

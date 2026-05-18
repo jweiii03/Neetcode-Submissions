@@ -1,3 +1,6 @@
+# Time Complexity: O(n), single pass through list
+# Space Complexity: O(n), set stores up to n unique elements
+
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
@@ -7,4 +10,3 @@ class Solution:
             else: 
                 return True
         return False
-        

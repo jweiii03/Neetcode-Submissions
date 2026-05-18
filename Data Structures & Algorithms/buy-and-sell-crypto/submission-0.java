@@ -1,3 +1,6 @@
+// Time Complexity: O(n), single pass through prices array
+// Space Complexity: O(1), only use constant space for variables
+
 class Solution {
     public int maxProfit(int[] prices) {
         int l = 0, r = 1;

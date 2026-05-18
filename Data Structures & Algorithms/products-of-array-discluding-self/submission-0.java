@@ -1,3 +1,6 @@
+// Time Complexity: O(n), two passes through array
+// Space Complexity: O(1), only use constant space excluding output array
+
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         // O(2n) = O(n) solution, iterate through list once and find product of all int
@@ -30,4 +33,4 @@ class Solution {
         return ans;
 
     }
-}  
+}

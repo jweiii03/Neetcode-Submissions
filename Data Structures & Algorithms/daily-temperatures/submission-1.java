@@ -1,3 +1,6 @@
+// Time Complexity: O(n), each element pushed and popped from stack once
+// Space Complexity: O(n), stack can store up to n elements in worst case
+
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
         int[] res = new int[temperatures.length];
@@ -23,4 +26,3 @@ class Solution {
         return res;
     }
 }
-

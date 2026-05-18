@@ -1,3 +1,6 @@
+// Time Complexity: O(n), two pointer approach, each character visited at most twice
+// Space Complexity: O(min(n, m)), hashset stores at most m unique characters (m is alphabet size)
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int longestSub = 0;

@@ -1,3 +1,6 @@
+# Time Complexity: O(n), each number visited at most twice (once to add to set, once during iteration)
+# Space Complexity: O(n), set stores all unique numbers
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         s = set()

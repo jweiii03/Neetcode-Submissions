@@ -1,3 +1,6 @@
+# Time Complexity: O(n), two pointer approach, single pass through list
+# Space Complexity: O(1), only use constant space for variables
+
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         answer = []

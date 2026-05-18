@@ -1,3 +1,6 @@
+# Time Complexity: O(n), iterate through both strings once to count characters
+# Space Complexity: O(1), dictionary stores at most 26 unique lowercase letters
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -10,4 +13,3 @@ class Solution:
             countT[t[i]] = 1 + countT.get(t[i], 0)
         
         return countS == countT
-        

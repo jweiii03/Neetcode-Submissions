@@ -1,3 +1,6 @@
+// Time Complexity: O(n), where n is total length of all strings (encode and decode both O(n))
+// Space Complexity: O(n), StringBuilder and output list store all string content
+
 class Solution {
     // We cant just add a random special character in between all strings
     // Since this delimeter could show up in some of the words

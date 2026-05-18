@@ -1,3 +1,6 @@
+# Time Complexity: O(n * log(n)), hashmap creation O(n), sorting O(n * log(n))
+# Space Complexity: O(n), hashmap stores up to n unique elements
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         hm = {}
